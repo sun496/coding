@@ -1,6 +1,6 @@
 
 st.title("은선이의 옷가게")
-st.title("_이 옷가게_ 는 :blue[cool] :sunglasses:")
+st.title("_streamlit_ is :blue[cool] :sunglasses:")
 import streamlit as st
 
 sentiment_mapping = ["one", "two", "three", "four", "five"]
