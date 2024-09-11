@@ -16,10 +16,10 @@ st.divider()  # 가로 긴 줄 구분선
 
 
 # checkbox
-active = st.checkbox('I agree')
+active = st.checkbox('은선이')
 
 if active:
-    st.text('Great!')
+    st.text('나야나!')
 
 
 st.divider()  # 가로 긴 줄 구분선
@@ -31,9 +31,9 @@ toggle = st.toggle(
 )
 
 if toggle:
-    st.text('Switch is turned on!')
+    st.text(내가 왔다!')
 else:
-    st.text('Switch is turned off!')
+    st.text('내가 간다!')
 
 
 st.divider()  # 가로 긴 줄 구분선
