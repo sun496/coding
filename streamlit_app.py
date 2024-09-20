@@ -22,10 +22,9 @@ project_2_page = st.Page(
 test1_page = st.Page(
     page="views/test1.py",
     title="텍스트",
-    icon=":material/icons-outlined">
-favorite
-</span>:",
+    icon=":material/favorite:",
 )
+
 test2_page = st.Page(
     page="views/test2.py",
     title="위젯",
