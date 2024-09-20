@@ -4,13 +4,13 @@ import random
 #게임결과 내는 함수. guess는 사람의 추측 값 0(앞면),1(뒷면)
 def playGame(guessNum):
 comNum=random.randint(0,1)
-if comNum==guessNum:
-st.write('적중')
+
+ if comNum==guessNum:
+    st.write('적중')
 
 else:
-st.write('아쉽네연')
+   st.write('아쉽네연')
 
-st.title("스트림릿 테스트 3")
 
 st.title('동전 던지기 게임')
 st.divider()
