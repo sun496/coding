@@ -22,7 +22,9 @@ project_2_page = st.Page(
 test1_page = st.Page(
     page="views/test1.py",
     title="텍스트",
-    icon=":material/sentiment_satisfied:",
+    icon=":material/icons-outlined">
+favorite
+</span>:",
 )
 test2_page = st.Page(
     page="views/test2.py",
@@ -31,7 +33,7 @@ test2_page = st.Page(
 )
 test3_page = st.Page(
     page="views/test3.py",
-    title="스트림릿 테스트 3",
+    title="동전던지기 게임",
     icon=":material/sentiment_satisfied:",
 )
 test4_page = st.Page(
